@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "quart-peewee"
+version = "0.1.0"
+description = "Integration between the Quart web framework and the Peewee ORM through the Peewee-AIO"
+authors = ["Mystic-Mirage <mm@m10e.net>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["peewee", "quart", "asyncio", "trio", "orm"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+repository = "https://github.com/Mystic-Mirage/quart-peewee"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+peewee-aio = ">=1.3.0"
+quart = ">=0.19.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+pytest-asyncio = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
