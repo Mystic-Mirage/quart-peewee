@@ -1,0 +1,2 @@
+peewee-aio>=1.3.0
+quart>=0.19.1
