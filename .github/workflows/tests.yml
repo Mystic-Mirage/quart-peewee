@@ -2,9 +2,11 @@ name: Tests
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+    - main
   pull_request:
-    branches: [ "main" ]
+    branches:
+    - main
 
 permissions:
   contents: read
@@ -26,7 +28,7 @@ jobs:
     - name: Check out repository
       uses: actions/checkout@v3
 
-    - name: Set up ${{ matrix.python-version }}
+    - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
       with:
 #        cache: poetry
