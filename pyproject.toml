@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "quart-peewee"
-version = "0.1.0"
+version = "0.1.1"
 description = "Integration between the Quart web framework and the Peewee ORM through the Peewee-AIO"
 authors = ["Mystic-Mirage <mm@m10e.net>"]
 license = "MIT"
