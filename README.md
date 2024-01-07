@@ -13,7 +13,6 @@ pip install quart-peewee
 ```python
 from peewee_aio.fields import CharField
 from quart import Quart, request
-
 from quart_peewee import QuartPeewee
 
 app = Quart(__name__)
