@@ -2,6 +2,12 @@
 
 Integration between the [Quart](https://github.com/pallets/quart) web framework and the [Peewee ORM](https://github.com/coleifer/peewee) through the [Peewee-AIO](https://github.com/klen/peewee-aio)
 
+## Installation
+
+```
+pip install quart-peewee
+```
+
 ## Usage
 
 ```python
