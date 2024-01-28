@@ -2,7 +2,7 @@
 name = "quart-peewee"
 version = "0.1.1"
 description = "Integration between the Quart web framework and the Peewee ORM through the Peewee-AIO"
-authors = ["Mystic-Mirage <mm@m10e.net>"]
+authors = ["Oleksandr Tishyn <mm@m10e.net>"]
 license = "MIT"
 readme = "README.md"
 keywords = ["peewee", "quart", "asyncio", "trio", "orm"]
